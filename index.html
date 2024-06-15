@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech.Care</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="./img/TestLogo@2x.jpg" alt="logo"></a>
+            </div>
+            <div class="ul">
+                <ul>
+                    <li><img src="./img/home_FILL0_wght300_GRAD0_opsz24.jpg" alt="home" />Overview</li>
+                    <li><img src="./img/345678kjnb.png" alt="patient" />Patients</li>
+                    <li><img src="./img/calendar_today_FILL0_wght300_GRAD0_opsz24.png" alt="scheduel" />Schedule
+                    </li>
+                    <li><img src="./img/chat_bubble_FILL0_wght300_GRAD0_opsz24.jpg" alt="message" />Message</li>
+                    <li><img src="./img/credit_card_FILL0_wght300_GRAD0_opsz24.jpg" alt="credit" />Transactions</li>
+                </ul>
+            </div>
+            <div class="all-acc">
+                <div class="account-img">
+                    <img src="./img/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc.png"
+                        alt="account">
+                </div>
+                <div class="account">
+                    <p>Dr. Jose Simmons</p>
+                    <p>General Practitioner</p>
+                </div>
+                <div class="image">
+                    <img src="./img/settings_FILL0_wght300_GRAD0_opsz24.png" alt="setting">
+                    <img src="/img/ndb nsmqnwd.png" alt="slct">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="all-grid">
+        <section class="patients">
+            <div class="patient_div">
+                <h2>Patients</h2>
+                <span class="spin">
+                    <img src="./img/search_FILL0_wght300_GRAD0_opsz24@2x.png" alt="">
+                </span>
+            </div>
+            <div class="patient_list">
+
+            </div>
+        </section>
+
+
+        <section class="diagnostic_history">
+            <div class="history">
+                <h2>Diagnosis History</h2>
+                <div class="dataBlood">
+                    <div class="display">
+                        <div class="flex">
+                        <div class="blood">
+                            <h4>Blood Pressure</h4>
+                            <span>
+                                Last 6 months
+                                <img src="./img/last.svg" alt="">
+                            </span>
+                        </div>
+                        <div id="blodcart">
+                            <canvas id="myChart"></canvas>
+                        </div>
+                        </div>
+                        <div class="allsys">
+                            <div class="systolic">
+                                <div class="square1"> </div>
+                                <div class="all-qan">
+                                    <h4> Systolic</h4>
+                                    <div class="qan">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="diastolic">
+                                <div class="square2"> </div>
+                                <div class="all-tezyiq">
+                                    <h4> Diastolic</h4>
+                                    <div class="tezyiq">
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <section class="patient_details"></section>
+
+                <div class="all-bpm">
+                    <div class="bpm1">
+                        <img src="./img/bpm1.png" alt="agciyer">
+                        <h4>Respiratory Rate</h4>
+                        <div class="subbpm">
+
+                        </div>
+                    </div>
+                    <div class="bpm2">
+                        <img src="./img/bpm2.png" alt="heart">
+                        <h4>Temperature</h4>
+                        <div class="subbpm2">
+
+                        </div>
+                    </div>
+                    <div class="bpm3">
+                        <img src="./img/bpm3.png" alt="temp">
+                        <h4>Heart Rate</h4>
+                        <div class="subbpm3">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list">
+                <h2>
+                    Diagnostic List
+                </h2>
+                <div class="Problem">
+                    <h4>Problem/Diagnosis</h4>
+                    <h4>Description</h4>
+                    <h4>Status</h4>
+                </div>
+                <div class="diagnosticList">
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="patient_lap_result">
+            <div class="patient_info">
+
+            </div>
+            <div class="result">
+                <h4>Lab Results</h4>
+                <div class="ResultLab">
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+
+</html>
